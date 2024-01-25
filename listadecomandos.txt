@@ -1,5 +1,8 @@
 git log --oneline
 git log --greg='palavra-do-commit'
 git checkout <numeroDoCommit>
-git log --oneline --all (mostra todos os commits, inclusive os posteriores ao estado atual. útil quando você estiver 'viajando no tempo' para ver outros arquivos)
+git log --oneline --all (mostra todos os commits, inclusive os posteriores ao estado atual. e os commits de outras branchs! útil quando você estiver 'viajando no multiverso' ou até mesmo em uma branch (linha do tempo) só para ver outros arquivos)
 git checkout main
+git checkout HEAD~1 (volta um commit a partir do momento que eu estou)
+git checkout -b <nome_da_branch> (cria branch)
+git merge <nome_da_branch>
