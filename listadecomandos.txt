@@ -1,0 +1,5 @@
+git log --oneline
+git log --greg='palavra-do-commit'
+git checkout <numeroDoCommit>
+git log --oneline --all (mostra todos os commits, inclusive os posteriores ao estado atual. útil quando você estiver 'viajando no tempo' para ver outros arquivos)
+git checkout main
